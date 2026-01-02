@@ -1,14 +1,14 @@
 import './App.css'
-
+import Navbar from './components/Navbar'
 function App() {
 
   return (
     <>
-      <h1 className="text-gray-600 dark:text-gray-300 mt-2">
-      Hello world!
-    </h1>
+      <Navbar />
     </>
   )
 }
 
 export default App
+
+
