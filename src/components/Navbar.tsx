@@ -1,7 +1,7 @@
 export default function Navbar(){
     return(
         <>
-        <nav className="fixed top-0 z-50 justify-center p-4">
+        <nav className="fixed top-0 flex items-center justify-between bg-white w-full">
             <div className="container mx-auto">
                 <ul className="list-style-none me-auto flex flex-col ps-0 lg:flex-row">
                     <li className="inline-block">
@@ -15,6 +15,7 @@ export default function Navbar(){
                     </li>
                 </ul>
             </div>
+            
         </nav>
         </>)
 };
