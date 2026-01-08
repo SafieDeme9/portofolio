@@ -1,4 +1,4 @@
-const experiences = [
+const jobs = [
     {
       company: "Mygladix",
       jobtitle: "Software Developer",
@@ -8,4 +8,4 @@ const experiences = [
       description: "",
     },
   ];
-  
+export default jobs;

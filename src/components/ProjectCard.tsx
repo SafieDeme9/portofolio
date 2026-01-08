@@ -1,3 +1,4 @@
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 export default function ProjectCard(Project: any) {
     return(
         <>
@@ -11,6 +12,13 @@ export default function ProjectCard(Project: any) {
             <p className="text-gray-600  mt-2">
                 {Project.desc}
             </p>
+            <a href= "" className="bg-transparent hover:bg-slate-700 hover:text-white  rounded-lg text-black">
+              <FaGithub />
+            </a>
+            <a href="https://ndqx4r.csb.app/">
+            <FaExternalLinkAlt />
+            </a>
+
         </div>
         </>
     );
