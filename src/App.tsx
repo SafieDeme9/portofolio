@@ -10,7 +10,6 @@ function App() {
     <>
       <Header />
       <About />
-      <br />
       <Projects />
       <Contact />
       <Footer />
