@@ -21,7 +21,7 @@ export default function TechStack() {
         <div className="flex items-center flex-wrap gap-4">
           <div className="flex flex-row-1 gap-3 items-center">
           <h3 className="text-xl md:text-2xl font-bold text-gray-800 dark:text-white whitespace-nowrap">
-            Tech Stack |
+            Tech Stack:
           </h3>
             {techStack.map((tech, index) => (
               <a
